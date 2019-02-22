@@ -9,8 +9,14 @@
 \usepackage[utf8]{inputenc}
 \usepackage{svg}
 \usepackage{textcomp}
+
+% Typesetting tools for kerning
 \usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
+
+% Source Sans Pro Typeface
 \usepackage[default,osf]{sourcesanspro}
+
+% Typesetting of units
 \usepackage[detect-family=true,detect-mode=true,range-phrase=--,per-mode = symbol]{siunitx}
 
 % Break URLs
@@ -36,8 +42,9 @@
 \input{chapters/preface/preface.tex}
 
 \microtypesetup{protrusion=false}
-\tableofcontents
+    \tableofcontents
 \microtypesetup{protrusion=true}
+
 
 \input{chapters/introduction/introduction.tex}
 
